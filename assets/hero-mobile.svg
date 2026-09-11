@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="420" viewBox="0 0 440 420" role="img" aria-labelledby="title desc">
+  <title id="title">Srishanth Goud — curiosity in, working software out.</title>
+  <desc id="desc">AI tools, web products, and Android experiments. A compact engineering-inspired profile banner with a circuit orbit. Build, ship, repeat.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111a26"/>
+      <stop offset="1" stop-color="#0b1018"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#c7f284" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#c7f284" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#253245" stroke-width=".65"/>
+    </pattern>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+    .trace { animation: trace 18s linear infinite; }
+    .pulse { animation: pulse 5s ease-in-out infinite; }
+    .cursor { animation: cursor 2.4s steps(2, jump-none) infinite; }
+    @keyframes trace { to { stroke-dashoffset: -96; } }
+    @keyframes pulse { 0%, 100% { opacity: .4; } 50% { opacity: 1; } }
+    @keyframes cursor { 0%, 65% { opacity: 1; } 100% { opacity: .25; } }
+    @media (prefers-reduced-motion: reduce) {
+      .trace, .pulse, .cursor { animation: none !important; }
+    }
+  </style>
+  <rect x=".5" y=".5" width="439" height="419" rx="22" fill="url(#surface)" stroke="#253245"/>
+  <rect x="226" y="25" width="188" height="125" rx="14" fill="url(#grid)" opacity=".4"/>
+  <g transform="translate(345 82) scale(0.3)">
+    <circle r="169" fill="url(#halo)"/>
+    <circle r="127" stroke="#253245" fill="none"/>
+    <circle r="102" stroke="#253245" fill="none" stroke-dasharray="2 9"/>
+    <path d="M-150 0H150 M0-150V150" stroke="#253245" stroke-dasharray="3 8"/>
+    <ellipse rx="145" ry="56" transform="rotate(-34)" stroke="#c7f284" stroke-opacity=".28" fill="none"/>
+    <ellipse rx="145" ry="56" transform="rotate(34)" stroke="#88d8ff" stroke-opacity=".34" fill="none"/>
+    <ellipse class="trace" rx="145" ry="56" transform="rotate(-34)" stroke="#c7f284" stroke-width="1.3" stroke-dasharray="12 84" fill="none"/>
+    <path d="M-120-71H-72L-44-43 M115-67H73L44-38 M-110 87H-73L-42 45 M115 73H73L43 43" stroke="#253245" stroke-width="1.5" fill="none"/>
+    <rect x="-47" y="-47" width="94" height="94" rx="20" fill="#0b1018" stroke="#c7f284" stroke-opacity=".45"/>
+    <rect x="-38" y="-38" width="76" height="76" rx="13" fill="#111a26" stroke="#253245"/>
+    <path d="M-13-13L-26 0L-13 13 M13-13L26 0L13 13 M5-19L-5 19" stroke="#c7f284" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <g stroke="#253245" stroke-width="2">
+      <path d="M-23-56V-47 M0-56V-47 M23-56V-47 M-23 47V56 M0 47V56 M23 47V56 M-56-23H-47 M-56 0H-47 M-56 23H-47 M47-23H56 M47 0H56 M47 23H56"/>
+    </g>
+    <circle cx="-120" cy="-71" r="6" fill="#0b1018" stroke="#c7f284" stroke-width="2"/>
+    <circle cx="115" cy="-67" r="5" fill="#0b1018" stroke="#88d8ff" stroke-width="2"/>
+    <circle cx="-110" cy="87" r="5" fill="#0b1018" stroke="#b7a3ff" stroke-width="2"/>
+    <circle cx="115" cy="73" r="6" fill="#0b1018" stroke="#c7f284" stroke-width="2"/>
+    <circle class="pulse" cx="115" cy="73" r="11" fill="none" stroke="#c7f284" stroke-opacity=".3"/>
+    
+  </g>
+  <rect x="28" y="35" width="7" height="7" rx="2" fill="#c7f284"/>
+  <text x="45" y="45" class="sans" font-size="14" font-weight="650" fill="#edf3fa" letter-spacing="1">SRISHANTH GOUD</text>
+  <text x="28" y="70" class="mono" font-size="13" font-weight="400" fill="#9baabe" >@iamsrishanth</text>
+  <path d="M28 129H412" stroke="#253245"/>
+  <text x="28" y="183" class="sans" font-size="44" font-weight="650" fill="#edf3fa" letter-spacing="-1.6">Curiosity in.</text>
+  <text x="28" y="233" class="sans" font-size="39" font-weight="650" fill="#c7f284" letter-spacing="-1.5">Working software</text>
+  <text x="28" y="278" class="sans" font-size="44" font-weight="650" fill="#c7f284" letter-spacing="-1.6">out.</text>
+  <text x="28" y="315" class="sans" font-size="16" font-weight="400" fill="#9baabe" >AI tools · web products</text>
+  <text x="28" y="338" class="sans" font-size="16" font-weight="400" fill="#9baabe" >Android experiments</text>
+  <path d="M28 358H412" stroke="#253245"/>
+  <text x="28" y="389" class="mono" font-size="14" font-weight="400" fill="#edf3fa" >&gt; build · ship · repeat</text>
+  <rect class="cursor" x="234" y="376" width="7" height="16" rx="1" fill="#c7f284"/>
+
+</svg>

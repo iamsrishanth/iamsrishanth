@@ -1,0 +1,24 @@
+name: Say hello
+description: Bring an idea, ask about a project, or share something you built.
+title: "Hello: "
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for stopping by! This is a public conversation."
+  - type: dropdown
+    id: reason
+    attributes:
+      label: What brings you here?
+      options:
+        - An idea to build together
+        - A question about a project
+        - Something I built and want to share
+    validations:
+      required: true
+  - type: textarea
+    id: message
+    attributes:
+      label: Tell me more
+      description: A little context and a relevant link are a great starting point.
+    validations:
+      required: true

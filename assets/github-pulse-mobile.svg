@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="462" viewBox="0 0 440 462" role="img" aria-labelledby="title desc">
+<title id="title">Srishanth’s public GitHub pulse</title>
+<desc id="desc">Snapshot 2026-09-11 UTC. 42 original public repositories, 6 primary languages, 10 repositories pushed in the last 30 days. On GitHub since 2023. Language segments count repositories, not code bytes. Forks are excluded; push activity also excludes this profile repository.</desc>
+<rect x="1" y="1" width="438" height="460" rx="20" fill="#0b1018" stroke="#253245"/>
+<g font-family="ui-monospace, SFMono-Regular, Consolas, Liberation Mono, monospace">
+<circle cx="25" cy="34" r="4" fill="#c7f284"/>
+<text x="38" y="39" fill="#c7f284" font-size="12" letter-spacing="1.4">GITHUB PULSE</text>
+<text x="418" y="39" text-anchor="end" fill="#9baabe" font-size="11">2026-09-11 UTC</text>
+<rect x="20" y="64" width="196" height="100" rx="12" fill="#111a26" stroke="#253245"/>
+<text x="34" y="113" fill="#c7f284" font-size="36" font-weight="700">42</text>
+<text x="34" y="142" fill="#9baabe" font-size="13">original public repos</text>
+<rect x="224" y="64" width="196" height="100" rx="12" fill="#111a26" stroke="#253245"/>
+<text x="238" y="113" fill="#88d8ff" font-size="36" font-weight="700">6</text>
+<text x="238" y="142" fill="#9baabe" font-size="13">primary languages</text>
+<rect x="20" y="176" width="196" height="100" rx="12" fill="#111a26" stroke="#253245"/>
+<text x="34" y="225" fill="#b7a3ff" font-size="36" font-weight="700">10</text>
+<text x="34" y="254" fill="#9baabe" font-size="13">repos pushed / 30d</text>
+<rect x="224" y="176" width="196" height="100" rx="12" fill="#111a26" stroke="#253245"/>
+<text x="238" y="225" fill="#edf3fa" font-size="36" font-weight="700">2023</text>
+<text x="238" y="254" fill="#9baabe" font-size="13">on GitHub since</text>
+<text x="22" y="311" fill="#edf3fa" font-size="13">PRIMARY LANGUAGES</text>
+<text x="22" y="331" fill="#9baabe" font-size="11">Repository counts · not code bytes</text>
+<defs><clipPath id="language-bar"><rect x="22" y="346" width="396" height="9" rx="4.5"/></clipPath></defs>
+<rect x="22" y="346" width="396" height="9" rx="4.5" fill="#253245"/>
+<g clip-path="url(#language-bar)">
+<rect x="22.000" y="346" width="188.100" height="9" fill="#c7f284"/>
+<rect x="210.100" y="346" width="128.700" height="9" fill="#88d8ff"/>
+<rect x="338.800" y="346" width="39.600" height="9" fill="#b7a3ff"/>
+<rect x="378.400" y="346" width="19.800" height="9" fill="#f0bd83"/>
+<rect x="398.200" y="346" width="9.900" height="9" fill="#f49bb0"/>
+<rect x="408.100" y="346" width="9.900" height="9" fill="#7de0c4"/>
+</g>
+<circle cx="27" cy="374" r="4" fill="#c7f284"/>
+<text x="40" y="378" fill="#9baabe" font-size="12"><title>TypeScript</title>TypeScript <tspan fill="#edf3fa">19</tspan></text>
+<circle cx="231" cy="374" r="4" fill="#88d8ff"/>
+<text x="244" y="378" fill="#9baabe" font-size="12"><title>Python</title>Python <tspan fill="#edf3fa">13</tspan></text>
+<circle cx="27" cy="402" r="4" fill="#b7a3ff"/>
+<text x="40" y="406" fill="#9baabe" font-size="12"><title>JavaScript</title>JavaScript <tspan fill="#edf3fa">4</tspan></text>
+<circle cx="231" cy="402" r="4" fill="#f0bd83"/>
+<text x="244" y="406" fill="#9baabe" font-size="12"><title>HTML</title>HTML <tspan fill="#edf3fa">2</tspan></text>
+<circle cx="27" cy="430" r="4" fill="#f49bb0"/>
+<text x="40" y="434" fill="#9baabe" font-size="12"><title>CSS</title>CSS <tspan fill="#edf3fa">1</tspan></text>
+<circle cx="231" cy="430" r="4" fill="#7de0c4"/>
+<text x="244" y="434" fill="#9baabe" font-size="12"><title>Kotlin</title>Kotlin <tspan fill="#edf3fa">1</tspan></text>
+<text x="22" y="450" fill="#9baabe" font-size="9">Public originals · push counts exclude this profile</text>
+</g>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="90" viewBox="0 0 1100 90" role="img" aria-labelledby="title desc">
+  <title id="title">End of file. Start a conversation.</title>
+  <desc id="desc">A terminal prompt and a softly blinking lime cursor invite a conversation.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111a26"/>
+      <stop offset="1" stop-color="#0b1018"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#c7f284" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#c7f284" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#253245" stroke-width=".65"/>
+    </pattern>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+    .trace { animation: trace 18s linear infinite; }
+    .pulse { animation: pulse 5s ease-in-out infinite; }
+    .cursor { animation: cursor 2.4s steps(2, jump-none) infinite; }
+    @keyframes trace { to { stroke-dashoffset: -96; } }
+    @keyframes pulse { 0%, 100% { opacity: .4; } 50% { opacity: 1; } }
+    @keyframes cursor { 0%, 65% { opacity: 1; } 100% { opacity: .25; } }
+    @media (prefers-reduced-motion: reduce) {
+      .trace, .pulse, .cursor { animation: none !important; }
+    }
+  </style>
+  <rect x=".5" y=".5" width="1099" height="89" rx="22" fill="url(#surface)" stroke="#253245"/>
+  <rect x="31" y="29" width="30" height="30" rx="8" fill="#0b1018" stroke="#253245"/>
+  <path d="M40 38L46 44L40 50 M48 50H53" stroke="#c7f284" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="80" y="51" class="sans" font-size="21" font-weight="500" fill="#edf3fa" >End of file. Start a conversation.</text>
+  <path d="M466 44H966" stroke="#253245" stroke-dasharray="2 7"/>
+  <text x="1009" y="50" class="mono" font-size="20" font-weight="400" fill="#c7f284" >&gt;</text>
+  <rect class="cursor" x="1037" y="32" width="11" height="23" rx="1" fill="#c7f284"/>
+
+</svg>

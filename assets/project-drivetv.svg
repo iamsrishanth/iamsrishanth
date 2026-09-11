@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="250" viewBox="0 0 520 250" role="img" aria-labelledby="title desc">
+  <title id="title">DriveTV</title>
+  <desc id="desc">ANDROID. Google Drive on the big screen. Built with Kotlin · Compose · Media3. Explore the repository.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111a26"/>
+      <stop offset="1" stop-color="#0b1018"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#b7a3ff" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#b7a3ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#253245" stroke-width=".65"/>
+    </pattern>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+    .trace { animation: trace 18s linear infinite; }
+    .pulse { animation: pulse 5s ease-in-out infinite; }
+    .cursor { animation: cursor 2.4s steps(2, jump-none) infinite; }
+    @keyframes trace { to { stroke-dashoffset: -96; } }
+    @keyframes pulse { 0%, 100% { opacity: .4; } 50% { opacity: 1; } }
+    @keyframes cursor { 0%, 65% { opacity: 1; } 100% { opacity: .25; } }
+    @media (prefers-reduced-motion: reduce) {
+      .trace, .pulse, .cursor { animation: none !important; }
+    }
+  </style>
+  <rect x=".5" y=".5" width="519" height="249" rx="22" fill="url(#surface)" stroke="#253245"/>
+  <path d="M28 21H72" stroke="#b7a3ff" stroke-width="2" stroke-linecap="round"/>
+  <text x="28" y="49" class="mono" font-size="12" font-weight="400" fill="#b7a3ff" >03</text>
+  <text x="60" y="49" class="mono" font-size="11" font-weight="400" fill="#9baabe" letter-spacing="1.5">/ ANDROID</text>
+  <path d="M476 34H490V48 M490 34L476 48" stroke="#b7a3ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="28" y="97" class="sans" font-size="33" font-weight="650" fill="#edf3fa" letter-spacing="-.7">DriveTV</text>
+  <text x="28" y="126" class="sans" font-size="17" font-weight="400" fill="#9baabe" >Google Drive on the big screen.</text>
+  <text x="28" y="180" class="mono" font-size="12" font-weight="400" fill="#b7a3ff" >Kotlin · Compose · Media3</text>
+  <g transform="translate(427 111)">
+      <circle r="59" fill="url(#halo)"/>
+      <rect x="-43" y="-43" width="86" height="86" rx="20" fill="#111a26" stroke="#253245"/>
+    <rect x="-29" y="-22" width="58" height="39" rx="7" fill="#0b1018" stroke="#b7a3ff" stroke-width="1.5"/>
+        <path d="M-12 25H12 M0 17V25" stroke="#b7a3ff" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M-5-12L10-3L-5 6Z" fill="#b7a3ff"/>
+        <circle cx="22" cy="11" r="1.5" fill="#b7a3ff" opacity=".6"/>
+        </g>
+  <path d="M28 203H492" stroke="#253245"/>
+  <text x="28" y="229" class="mono" font-size="10" font-weight="400" fill="#9baabe" letter-spacing="1.7">EXPLORE REPOSITORY</text>
+  <path d="M465 225H491 M485 219L491 225L485 231" stroke="#b7a3ff" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>

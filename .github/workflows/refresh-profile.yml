@@ -1,0 +1,48 @@
+name: Refresh public profile
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/refresh_profile.py"
+      - "tests/test_refresh_profile.py"
+      - ".github/workflows/refresh-profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: public-profile-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'iamsrishanth/iamsrishanth'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Test public data filtering and generated content
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Refresh from public GitHub endpoints
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/refresh_profile.py
+
+      - name: Save changed public snapshot
+        run: |
+          git add -- README.md assets/github-pulse.svg assets/github-pulse-mobile.svg data/public-profile.json
+          if git diff --cached --quiet; then
+            echo "Public snapshot is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh public GitHub snapshot"
+          git push

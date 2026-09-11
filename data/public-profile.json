@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "login": "iamsrishanth",
+  "snapshot_date_utc": "2026-09-11",
+  "account_created_year": 2023,
+  "metrics": {
+    "original_public_repositories": 42,
+    "primary_languages": 6,
+    "repositories_pushed_last_30_days": 10
+  },
+  "primary_languages": [
+    {
+      "name": "TypeScript",
+      "repositories": 19
+    },
+    {
+      "name": "Python",
+      "repositories": 13
+    },
+    {
+      "name": "JavaScript",
+      "repositories": 4
+    },
+    {
+      "name": "HTML",
+      "repositories": 2
+    },
+    {
+      "name": "CSS",
+      "repositories": 1
+    },
+    {
+      "name": "Kotlin",
+      "repositories": 1
+    }
+  ],
+  "recent_repositories": [
+    {
+      "name": "Papilio",
+      "url": "https://github.com/iamsrishanth/Papilio",
+      "pushed_date_utc": "2026-09-09",
+      "language": "TypeScript"
+    },
+    {
+      "name": "Sackhe",
+      "url": "https://github.com/iamsrishanth/Sackhe",
+      "pushed_date_utc": "2026-09-08",
+      "language": "HTML"
+    },
+    {
+      "name": "RoosterX",
+      "url": "https://github.com/iamsrishanth/RoosterX",
+      "pushed_date_utc": "2026-09-07",
+      "language": "TypeScript"
+    },
+    {
+      "name": "Lavish_looks",
+      "url": "https://github.com/iamsrishanth/Lavish_looks",
+      "pushed_date_utc": "2026-09-07",
+      "language": "TypeScript"
+    }
+  ]
+}
