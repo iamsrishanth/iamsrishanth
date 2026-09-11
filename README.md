@@ -80,7 +80,7 @@ Technologies used across these projects. Follow a language to browse the matchin
 
 **42** original public repos · **6** primary languages · **10** repos pushed / 30 days · Account created **2023**
 
-Primary languages by repository count: TypeScript **19** · Python **13** · JavaScript **4** · HTML **2** · CSS **1** · Kotlin **1**
+Primary languages by repository count: TypeScript **19** · Python **14** · JavaScript **4** · HTML **2** · CSS **1** · Kotlin **1**
 
 | Recently pushed | Primary language | Last push (UTC) |
 | :--- | :--- | :--- |

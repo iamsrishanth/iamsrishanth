@@ -23,17 +23,17 @@
 <defs><clipPath id="language-bar"><rect x="30" y="225" width="1040" height="9" rx="4.5"/></clipPath></defs>
 <rect x="30" y="225" width="1040" height="9" rx="4.5" fill="#253245"/>
 <g clip-path="url(#language-bar)">
-<rect x="30.000" y="225" width="494.000" height="9" fill="#c7f284"/>
-<rect x="524.000" y="225" width="338.000" height="9" fill="#88d8ff"/>
-<rect x="862.000" y="225" width="104.000" height="9" fill="#b7a3ff"/>
-<rect x="966.000" y="225" width="52.000" height="9" fill="#f0bd83"/>
-<rect x="1018.000" y="225" width="26.000" height="9" fill="#f49bb0"/>
-<rect x="1044.000" y="225" width="26.000" height="9" fill="#7de0c4"/>
+<rect x="30.000" y="225" width="481.951" height="9" fill="#c7f284"/>
+<rect x="511.951" y="225" width="355.122" height="9" fill="#88d8ff"/>
+<rect x="867.073" y="225" width="101.463" height="9" fill="#b7a3ff"/>
+<rect x="968.537" y="225" width="50.732" height="9" fill="#f0bd83"/>
+<rect x="1019.268" y="225" width="25.366" height="9" fill="#f49bb0"/>
+<rect x="1044.634" y="225" width="25.366" height="9" fill="#7de0c4"/>
 </g>
 <circle cx="35" cy="256" r="4" fill="#c7f284"/>
 <text x="48" y="260" fill="#9baabe" font-size="12"><title>TypeScript</title>TypeScript <tspan fill="#edf3fa">19</tspan></text>
 <circle cx="299" cy="256" r="4" fill="#88d8ff"/>
-<text x="312" y="260" fill="#9baabe" font-size="12"><title>Python</title>Python <tspan fill="#edf3fa">13</tspan></text>
+<text x="312" y="260" fill="#9baabe" font-size="12"><title>Python</title>Python <tspan fill="#edf3fa">14</tspan></text>
 <circle cx="563" cy="256" r="4" fill="#b7a3ff"/>
 <text x="576" y="260" fill="#9baabe" font-size="12"><title>JavaScript</title>JavaScript <tspan fill="#edf3fa">4</tspan></text>
 <circle cx="827" cy="256" r="4" fill="#f0bd83"/>
