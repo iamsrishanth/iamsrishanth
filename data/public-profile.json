@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
   "login": "iamsrishanth",
-  "snapshot_date_utc": "2026-09-14",
+  "snapshot_date_utc": "2026-09-15",
   "account_created_year": 2023,
   "metrics": {
-    "original_public_repositories": 42,
+    "original_public_repositories": 44,
     "primary_languages": 6,
-    "repositories_pushed_last_30_days": 13
+    "repositories_pushed_last_30_days": 15
   },
   "primary_languages": [
     {
       "name": "TypeScript",
-      "repositories": 19
+      "repositories": 21
     },
     {
       "name": "Python",
@@ -36,6 +36,18 @@
   ],
   "recent_repositories": [
     {
+      "name": "weblaze-ems",
+      "url": "https://github.com/iamsrishanth/weblaze-ems",
+      "pushed_date_utc": "2026-09-15",
+      "language": "TypeScript"
+    },
+    {
+      "name": "weblaze",
+      "url": "https://github.com/iamsrishanth/weblaze",
+      "pushed_date_utc": "2026-09-15",
+      "language": "TypeScript"
+    },
+    {
       "name": "Papilio",
       "url": "https://github.com/iamsrishanth/Papilio",
       "pushed_date_utc": "2026-09-11",
@@ -44,18 +56,6 @@
     {
       "name": "LaSabrosov3",
       "url": "https://github.com/iamsrishanth/LaSabrosov3",
-      "pushed_date_utc": "2026-09-11",
-      "language": "TypeScript"
-    },
-    {
-      "name": "goflytta-site",
-      "url": "https://github.com/iamsrishanth/goflytta-site",
-      "pushed_date_utc": "2026-09-11",
-      "language": "TypeScript"
-    },
-    {
-      "name": "Lavish_looks",
-      "url": "https://github.com/iamsrishanth/Lavish_looks",
       "pushed_date_utc": "2026-09-11",
       "language": "TypeScript"
     }
