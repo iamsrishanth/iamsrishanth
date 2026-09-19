@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
   "login": "iamsrishanth",
-  "snapshot_date_utc": "2026-09-18",
+  "snapshot_date_utc": "2026-09-19",
   "account_created_year": 2023,
   "metrics": {
-    "original_public_repositories": 44,
+    "original_public_repositories": 46,
     "primary_languages": 6,
-    "repositories_pushed_last_30_days": 14
+    "repositories_pushed_last_30_days": 15
   },
   "primary_languages": [
     {
       "name": "TypeScript",
-      "repositories": 21
+      "repositories": 22
     },
     {
       "name": "Python",
@@ -26,11 +26,11 @@
       "repositories": 2
     },
     {
-      "name": "CSS",
-      "repositories": 1
+      "name": "Kotlin",
+      "repositories": 2
     },
     {
-      "name": "Kotlin",
+      "name": "CSS",
       "repositories": 1
     }
   ],
@@ -38,25 +38,25 @@
     {
       "name": "weblaze-ems",
       "url": "https://github.com/iamsrishanth/weblaze-ems",
-      "pushed_date_utc": "2026-09-17",
+      "pushed_date_utc": "2026-09-18",
+      "language": "TypeScript"
+    },
+    {
+      "name": "weblaze-ems-mobile",
+      "url": "https://github.com/iamsrishanth/weblaze-ems-mobile",
+      "pushed_date_utc": "2026-09-18",
+      "language": "Kotlin"
+    },
+    {
+      "name": "PrasadTech",
+      "url": "https://github.com/iamsrishanth/PrasadTech",
+      "pushed_date_utc": "2026-09-18",
       "language": "TypeScript"
     },
     {
       "name": "weblaze",
       "url": "https://github.com/iamsrishanth/weblaze",
       "pushed_date_utc": "2026-09-15",
-      "language": "TypeScript"
-    },
-    {
-      "name": "Papilio",
-      "url": "https://github.com/iamsrishanth/Papilio",
-      "pushed_date_utc": "2026-09-11",
-      "language": "TypeScript"
-    },
-    {
-      "name": "LaSabrosov3",
-      "url": "https://github.com/iamsrishanth/LaSabrosov3",
-      "pushed_date_utc": "2026-09-11",
       "language": "TypeScript"
     }
   ]
