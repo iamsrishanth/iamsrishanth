@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "login": "iamsrishanth",
-  "snapshot_date_utc": "2026-10-03",
+  "snapshot_date_utc": "2026-10-04",
   "account_created_year": 2023,
   "metrics": {
-    "original_public_repositories": 46,
+    "original_public_repositories": 47,
     "primary_languages": 6,
-    "repositories_pushed_last_30_days": 15
+    "repositories_pushed_last_30_days": 16
   },
   "primary_languages": [
     {
@@ -19,7 +19,7 @@
     },
     {
       "name": "JavaScript",
-      "repositories": 4
+      "repositories": 5
     },
     {
       "name": "HTML",
@@ -35,6 +35,12 @@
     }
   ],
   "recent_repositories": [
+    {
+      "name": "SAP-BTP",
+      "url": "https://github.com/iamsrishanth/SAP-BTP",
+      "pushed_date_utc": "2026-10-03",
+      "language": "JavaScript"
+    },
     {
       "name": "hermes-mobile",
       "url": "https://github.com/iamsrishanth/hermes-mobile",
@@ -52,12 +58,6 @@
       "url": "https://github.com/iamsrishanth/weblaze-ems-mobile",
       "pushed_date_utc": "2026-09-18",
       "language": "Kotlin"
-    },
-    {
-      "name": "PrasadTech",
-      "url": "https://github.com/iamsrishanth/PrasadTech",
-      "pushed_date_utc": "2026-09-18",
-      "language": "TypeScript"
     }
   ]
 }
