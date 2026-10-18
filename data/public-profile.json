@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
   "login": "iamsrishanth",
-  "snapshot_date_utc": "2026-10-17",
+  "snapshot_date_utc": "2026-10-18",
   "account_created_year": 2023,
   "metrics": {
-    "original_public_repositories": 47,
+    "original_public_repositories": 48,
     "primary_languages": 6,
-    "repositories_pushed_last_30_days": 5
+    "repositories_pushed_last_30_days": 6
   },
   "primary_languages": [
     {
       "name": "TypeScript",
-      "repositories": 21
+      "repositories": 22
     },
     {
       "name": "Python",
@@ -36,6 +36,12 @@
   ],
   "recent_repositories": [
     {
+      "name": "Photofolio",
+      "url": "https://github.com/iamsrishanth/Photofolio",
+      "pushed_date_utc": "2026-10-17",
+      "language": "TypeScript"
+    },
+    {
       "name": "weblaze-ems",
       "url": "https://github.com/iamsrishanth/weblaze-ems",
       "pushed_date_utc": "2026-10-12",
@@ -52,12 +58,6 @@
       "url": "https://github.com/iamsrishanth/SAP-BTP",
       "pushed_date_utc": "2026-10-04",
       "language": "JavaScript"
-    },
-    {
-      "name": "hermes-mobile",
-      "url": "https://github.com/iamsrishanth/hermes-mobile",
-      "pushed_date_utc": "2026-09-30",
-      "language": "—"
     }
   ]
 }
