@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "login": "iamsrishanth",
-  "snapshot_date_utc": "2026-10-29",
+  "snapshot_date_utc": "2026-10-30",
   "account_created_year": 2023,
   "metrics": {
-    "original_public_repositories": 48,
-    "primary_languages": 6,
+    "original_public_repositories": 49,
+    "primary_languages": 7,
     "repositories_pushed_last_30_days": 5
   },
   "primary_languages": [
@@ -32,9 +32,19 @@
     {
       "name": "CSS",
       "repositories": 1
+    },
+    {
+      "name": "Makefile",
+      "repositories": 1
     }
   ],
   "recent_repositories": [
+    {
+      "name": "j8-a10",
+      "url": "https://github.com/iamsrishanth/j8-a10",
+      "pushed_date_utc": "2026-10-30",
+      "language": "Makefile"
+    },
     {
       "name": "Photofolio",
       "url": "https://github.com/iamsrishanth/Photofolio",
@@ -52,12 +62,6 @@
       "url": "https://github.com/iamsrishanth/weblaze-ems-mobile",
       "pushed_date_utc": "2026-10-12",
       "language": "Kotlin"
-    },
-    {
-      "name": "SAP-BTP",
-      "url": "https://github.com/iamsrishanth/SAP-BTP",
-      "pushed_date_utc": "2026-10-04",
-      "language": "JavaScript"
     }
   ]
 }

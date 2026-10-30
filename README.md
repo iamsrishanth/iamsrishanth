@@ -78,18 +78,18 @@ Technologies used across these projects. Follow a language to browse the matchin
 
 <!-- ACTIVITY:START -->
 
-**48** original public repos · **6** primary languages · **5** repos pushed / 30 days · Account created **2023**
+**49** original public repos · **7** primary languages · **5** repos pushed / 30 days · Account created **2023**
 
-Primary languages by repository count: TypeScript **22** · Python **14** · JavaScript **5** · HTML **2** · Kotlin **2** · CSS **1**
+Primary languages by repository count: TypeScript **22** · Python **14** · JavaScript **5** · HTML **2** · Kotlin **2** · CSS **1** · Makefile **1**
 
 | Recently pushed | Primary language | Last push (UTC) |
 | :--- | :--- | :--- |
+| [j8-a10](https://github.com/iamsrishanth/j8-a10) | Makefile | 2026-10-30 |
 | [Photofolio](https://github.com/iamsrishanth/Photofolio) | TypeScript | 2026-10-18 |
 | [weblaze-ems](https://github.com/iamsrishanth/weblaze-ems) | TypeScript | 2026-10-12 |
 | [weblaze-ems-mobile](https://github.com/iamsrishanth/weblaze-ems-mobile) | Kotlin | 2026-10-12 |
-| [SAP-BTP](https://github.com/iamsrishanth/SAP-BTP) | JavaScript | 2026-10-04 |
 
-<sub>Snapshot: 2026-10-29 UTC. Metrics count original public repositories, including archived projects and this profile; 30-day pushes exclude this profile. Language counts omit repos with no detected primary language. The table excludes forks, archived projects and this profile. Pushes can include collaborator or automated updates.</sub>
+<sub>Snapshot: 2026-10-30 UTC. Metrics count original public repositories, including archived projects and this profile; 30-day pushes exclude this profile. Language counts omit repos with no detected primary language. The table excludes forks, archived projects and this profile. Pushes can include collaborator or automated updates.</sub>
 
 <!-- ACTIVITY:END -->
 
