@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "login": "iamsrishanth",
-  "snapshot_date_utc": "2026-11-06",
+  "snapshot_date_utc": "2026-11-07",
   "account_created_year": 2023,
   "metrics": {
-    "original_public_repositories": 49,
-    "primary_languages": 7,
-    "repositories_pushed_last_30_days": 4
+    "original_public_repositories": 51,
+    "primary_languages": 8,
+    "repositories_pushed_last_30_days": 6
   },
   "primary_languages": [
     {
@@ -26,6 +26,10 @@
       "repositories": 2
     },
     {
+      "name": "Java",
+      "repositories": 2
+    },
+    {
       "name": "Kotlin",
       "repositories": 2
     },
@@ -40,6 +44,18 @@
   ],
   "recent_repositories": [
     {
+      "name": "foyer-remote",
+      "url": "https://github.com/iamsrishanth/foyer-remote",
+      "pushed_date_utc": "2026-11-06",
+      "language": "Java"
+    },
+    {
+      "name": "foyer",
+      "url": "https://github.com/iamsrishanth/foyer",
+      "pushed_date_utc": "2026-11-06",
+      "language": "Java"
+    },
+    {
       "name": "j8-a10",
       "url": "https://github.com/iamsrishanth/j8-a10",
       "pushed_date_utc": "2026-10-30",
@@ -50,18 +66,6 @@
       "url": "https://github.com/iamsrishanth/Photofolio",
       "pushed_date_utc": "2026-10-18",
       "language": "TypeScript"
-    },
-    {
-      "name": "weblaze-ems",
-      "url": "https://github.com/iamsrishanth/weblaze-ems",
-      "pushed_date_utc": "2026-10-12",
-      "language": "TypeScript"
-    },
-    {
-      "name": "weblaze-ems-mobile",
-      "url": "https://github.com/iamsrishanth/weblaze-ems-mobile",
-      "pushed_date_utc": "2026-10-12",
-      "language": "Kotlin"
     }
   ]
 }
