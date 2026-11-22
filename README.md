@@ -78,18 +78,18 @@ Technologies used across these projects. Follow a language to browse the matchin
 
 <!-- ACTIVITY:START -->
 
-**53** original public repos · **8** primary languages · **5** repos pushed / 30 days · Account created **2023**
+**54** original public repos · **8** primary languages · **6** repos pushed / 30 days · Account created **2023**
 
-Primary languages by repository count: TypeScript **23** · Python **14** · JavaScript **5** · Kotlin **3** · HTML **2** · Java **2** · CSS **1** · Makefile **1**
+Primary languages by repository count: TypeScript **23** · Python **14** · JavaScript **5** · Kotlin **4** · HTML **2** · Java **2** · CSS **1** · Makefile **1**
 
 | Recently pushed | Primary language | Last push (UTC) |
 | :--- | :--- | :--- |
+| [OpenCaller](https://github.com/iamsrishanth/OpenCaller) | Kotlin | 2026-11-22 |
 | [weblaze-android](https://github.com/iamsrishanth/weblaze-android) | Kotlin | 2026-11-18 |
 | [weblaze-payment-gateway](https://github.com/iamsrishanth/weblaze-payment-gateway) | TypeScript | 2026-11-18 |
 | [foyer-remote](https://github.com/iamsrishanth/foyer-remote) | Java | 2026-11-06 |
-| [foyer](https://github.com/iamsrishanth/foyer) | Java | 2026-11-06 |
 
-<sub>Snapshot: 2026-11-21 UTC. Metrics count original public repositories, including archived projects and this profile; 30-day pushes exclude this profile. Language counts omit repos with no detected primary language. The table excludes forks, archived projects and this profile. Pushes can include collaborator or automated updates.</sub>
+<sub>Snapshot: 2026-11-22 UTC. Metrics count original public repositories, including archived projects and this profile; 30-day pushes exclude this profile. Language counts omit repos with no detected primary language. The table excludes forks, archived projects and this profile. Pushes can include collaborator or automated updates.</sub>
 
 <!-- ACTIVITY:END -->
 

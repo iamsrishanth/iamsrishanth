@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "login": "iamsrishanth",
-  "snapshot_date_utc": "2026-11-21",
+  "snapshot_date_utc": "2026-11-22",
   "account_created_year": 2023,
   "metrics": {
-    "original_public_repositories": 53,
+    "original_public_repositories": 54,
     "primary_languages": 8,
-    "repositories_pushed_last_30_days": 5
+    "repositories_pushed_last_30_days": 6
   },
   "primary_languages": [
     {
@@ -23,7 +23,7 @@
     },
     {
       "name": "Kotlin",
-      "repositories": 3
+      "repositories": 4
     },
     {
       "name": "HTML",
@@ -44,6 +44,12 @@
   ],
   "recent_repositories": [
     {
+      "name": "OpenCaller",
+      "url": "https://github.com/iamsrishanth/OpenCaller",
+      "pushed_date_utc": "2026-11-22",
+      "language": "Kotlin"
+    },
+    {
       "name": "weblaze-android",
       "url": "https://github.com/iamsrishanth/weblaze-android",
       "pushed_date_utc": "2026-11-18",
@@ -58,12 +64,6 @@
     {
       "name": "foyer-remote",
       "url": "https://github.com/iamsrishanth/foyer-remote",
-      "pushed_date_utc": "2026-11-06",
-      "language": "Java"
-    },
-    {
-      "name": "foyer",
-      "url": "https://github.com/iamsrishanth/foyer",
       "pushed_date_utc": "2026-11-06",
       "language": "Java"
     }
