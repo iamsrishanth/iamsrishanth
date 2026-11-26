@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "login": "iamsrishanth",
-  "snapshot_date_utc": "2026-11-25",
+  "snapshot_date_utc": "2026-11-26",
   "account_created_year": 2023,
   "metrics": {
-    "original_public_repositories": 54,
-    "primary_languages": 8,
-    "repositories_pushed_last_30_days": 6
+    "original_public_repositories": 55,
+    "primary_languages": 9,
+    "repositories_pushed_last_30_days": 7
   },
   "primary_languages": [
     {
@@ -34,6 +34,10 @@
       "repositories": 2
     },
     {
+      "name": "C#",
+      "repositories": 1
+    },
+    {
       "name": "CSS",
       "repositories": 1
     },
@@ -43,6 +47,12 @@
     }
   ],
   "recent_repositories": [
+    {
+      "name": "Lound",
+      "url": "https://github.com/iamsrishanth/Lound",
+      "pushed_date_utc": "2026-11-26",
+      "language": "C#"
+    },
     {
       "name": "OpenCaller",
       "url": "https://github.com/iamsrishanth/OpenCaller",
@@ -60,12 +70,6 @@
       "url": "https://github.com/iamsrishanth/weblaze-payment-gateway",
       "pushed_date_utc": "2026-11-18",
       "language": "TypeScript"
-    },
-    {
-      "name": "foyer-remote",
-      "url": "https://github.com/iamsrishanth/foyer-remote",
-      "pushed_date_utc": "2026-11-06",
-      "language": "Java"
     }
   ]
 }
