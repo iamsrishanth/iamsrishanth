@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "login": "iamsrishanth",
-  "snapshot_date_utc": "2026-11-26",
+  "snapshot_date_utc": "2026-11-27",
   "account_created_year": 2023,
   "metrics": {
-    "original_public_repositories": 55,
-    "primary_languages": 9,
-    "repositories_pushed_last_30_days": 7
+    "original_public_repositories": 56,
+    "primary_languages": 10,
+    "repositories_pushed_last_30_days": 8
   },
   "primary_languages": [
     {
@@ -44,9 +44,19 @@
     {
       "name": "Makefile",
       "repositories": 1
+    },
+    {
+      "name": "PLpgSQL",
+      "repositories": 1
     }
   ],
   "recent_repositories": [
+    {
+      "name": "OpenTrack360",
+      "url": "https://github.com/iamsrishanth/OpenTrack360",
+      "pushed_date_utc": "2026-11-27",
+      "language": "PLpgSQL"
+    },
     {
       "name": "Lound",
       "url": "https://github.com/iamsrishanth/Lound",
@@ -64,12 +74,6 @@
       "url": "https://github.com/iamsrishanth/weblaze-android",
       "pushed_date_utc": "2026-11-18",
       "language": "Kotlin"
-    },
-    {
-      "name": "weblaze-payment-gateway",
-      "url": "https://github.com/iamsrishanth/weblaze-payment-gateway",
-      "pushed_date_utc": "2026-11-18",
-      "language": "TypeScript"
     }
   ]
 }
